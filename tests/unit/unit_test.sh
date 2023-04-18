@@ -5,7 +5,7 @@
 # Test for spellcheck script
 function test_spellcheck() {
     # Run spellcheck script
-    ./modules/spellcheck.sh
+    ../../modules/spellcheck.sh
 
     # Check if spellcheck script has produced expected output
     # and return an appropriate exit code (0 for success, non-zero for failure)
@@ -21,7 +21,7 @@ function test_spellcheck() {
 # Test for snippets validation script
 function test_snippets() {
     # Run snippets validation script
-    ./modules/snippets.sh
+    ../../modules/snippets.sh
 
     # Check if snippets validation script has produced expected output
     # and return an appropriate exit code (0 for success, non-zero for failure)
@@ -37,7 +37,7 @@ function test_snippets() {
 # Test for formatting script
 function test_formatting() {
     # Run formatting script
-    ./modules/formatting.sh
+    ../../modules/formatting.sh
 
     # Check if formatting script has produced expected output
     # and return an appropriate exit code (0 for success, non-zero for failure)
