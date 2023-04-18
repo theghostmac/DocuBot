@@ -14,7 +14,7 @@ usage() {
 }
 
 # Default values for options
-input_dir="input"
+input_dir="docs"
 output_dir="output"
 config_file="config/rules.conf"
 commit_message="Automated commit by DocuBot"
