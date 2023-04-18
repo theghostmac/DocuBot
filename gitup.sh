@@ -5,6 +5,9 @@
 # Change to the DocuBot directory
 cd /path/to/docubot
 
+# Show all files to be committed to staging area
+git status
+
 # Add all changes and new files to Git
 git add .
 
