@@ -1,2 +1,4 @@
 Documentation formatting is disabled.
 Documentation formatting is disabled.
+Performing documentation formatting...
+Documentation formatting completed.

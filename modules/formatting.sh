@@ -3,9 +3,9 @@
 # This script formats documentation pages
 
 # Read configuration from rules.conf
-format_docs_enabled=$(grep -i 'format_docs_enabled' ../config/rules.conf | awk -F'=' '{print $2}')
-format_docs_style=$(grep -i 'format_docs_style' ../config/rules.conf | awk -F'=' '{print $2}')
-format_docs_exclude_paths=$(grep -i 'format_docs_exclude_paths' ../config/rules.conf | awk -F'=' '{print $2}')
+format_docs_enabled=$(grep -i 'format_docs_enabled' config/rules.conf | awk -F'=' '{print $2}')
+format_docs_style=$(grep -i 'format_docs_style' config/rules.conf | awk -F'=' '{print $2}')
+format_docs_exclude_paths=$(grep -i 'format_docs_exclude_paths' config/rules.conf | awk -F'=' '{print $2}')
 
 # Perform documentation formatting only if enabled
 if [[ $format_docs_enabled == "true" ]]; then
