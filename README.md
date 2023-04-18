@@ -28,6 +28,6 @@ We welcome contributions to DocuBot! If you have ideas for new features, bug fix
 
 ## **License**
 
-DocuBot is released under the **[MIT License](https://example.com/docubot/license)**, which allows for free use, modification, and distribution. However, please note that DocuBot is provided as-is, and the authors do not provide any warranties or support for its use.
+DocuBot is released under the **[MIT License](https://github.com/theghostmac/LICENSE)**, which allows for free use, modification, and distribution. However, please note that DocuBot is provided as-is, and the authors do not provide any warranties or support for its use.
 
 We hope you find DocuBot helpful in turbocharging your documentation engineering process! Happy documenting! 🚀📚
