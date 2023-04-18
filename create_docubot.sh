@@ -33,8 +33,16 @@ mkdir integration
 # Go back to DocuBot directory
 cd ..
 
+# Create results directory with result files
+mkdir -p results
+
+cd results
+touch spellcheck_results.txt ; touch snippets_results.txt ; touch formatting_results.txt
+
 # Create docs directory
 mkdir docs
+
+
 
 # Create CONTRIBUTING.md file
 echo "# Contributing Guidelines" > CONTRIBUTING.md
