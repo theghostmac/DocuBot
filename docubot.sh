@@ -54,19 +54,19 @@ fi
 
 # Process documentation files
 echo "Processing documentation files in '$input_dir' using configuration file '$config_file'"
-./modules/process_docs.sh "$input_dir" "$output_dir" "$config_file"
+modules/process_docs.sh "$input_dir" "$output_dir" "$config_file"
 
 # Run spell check
 echo "Running spell check..."
-./modules/spell_check.sh "$output_dir" "$config_file" > "results/spellcheck_results.txt"
+modules/spell_check.sh "$output_dir" "$config_file" >> "results/spellcheck_results.txt"
 
 # Generate snippets
 echo "Generating snippets..."
-./modules/generate_snippets.sh "$output_dir" "$config_file" > "results/snippets_results.txt"
+modules/generate_snippets.sh "$output_dir" "$config_file" > "results/snippets_results.txt"
 
 # Apply formatting changes
 echo "Applying formatting changes..."
-./modules/apply_formatting.sh "$output_dir" "$config_file" > "results/formatting_results.txt"
+modules/apply_formatting.sh "$output_dir" "$config_file" >> "results/formatting_results.txt"
 
 # Set permissions for .sh files
 echo "Setting permissions for .sh files..."
