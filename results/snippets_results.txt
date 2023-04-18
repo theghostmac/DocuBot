@@ -1,1 +1,5 @@
-Code snippet validation is disabled.
+Performing code snippet validation...
+No code snippets found in ./docs/sample_doc1.md
+No code snippets found in ./README.md
+No code snippets found in ./CONTRIBUTING.md
+Code snippet validation completed.

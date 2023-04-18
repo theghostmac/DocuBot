@@ -1,3 +1,5 @@
 Spell checking is disabled.
 Spell checking is disabled.
 Spell checking is disabled.
+Performing spell checking...
+Spell checking completed.
